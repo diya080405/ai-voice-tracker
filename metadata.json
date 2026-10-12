@@ -1,0 +1,10 @@
+{
+  "name": "Voxa AI - Voice Assistant",
+  "description": "Real-time voice conversational assistant powered by ElevenLabs speech synthesis and Gemini intelligence with audio-reactive visualizer and natural two-way dialogue.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
