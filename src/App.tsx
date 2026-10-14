@@ -4,13 +4,13 @@
  */
 
 import React, { useState } from 'react';
-import { useVoiceAssistant } from './hooks/useVoiceAssistant';
-import { AudioVisualizerCanvas } from './components/AudioVisualizerCanvas';
-import { VoiceStatusBadge } from './components/VoiceStatusBadge';
-import { ConversationTranscript } from './components/ConversationTranscript';
-import { AudioControls } from './components/AudioControls';
-import { SettingsModal } from './components/SettingsModal';
-import { SetupGuideModal } from './components/SetupGuideModal';
+import { useVoiceAssistant } from './useVoiceAssistant';
+import { AudioVisualizerCanvas } from './AudioVisualizerCanvas';
+import { VoiceStatusBadge } from './VoiceStatusBadge';
+import { ConversationTranscript } from './ConversationTranscript';
+import { AudioControls } from './AudioControls';
+import { SettingsModal } from './SettingsModal';
+import { SetupGuideModal } from './SetupGuideModal';
 import { AppSettings } from './types';
 import {
   Sliders,
